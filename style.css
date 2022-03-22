@@ -1,0 +1,67 @@
+body{
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+html{
+font-size: 75;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190828/pngtree-front-loader-fund-that-performs-construction-and-mining-work-heavy-machinery-image_307732.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-content: center;
+}
+.encabezado{
+    border-radius: 1rem;
+    box-shadow: 0 0 2rem rgba(158, 126, 66, 0.13);
+    max-width: 800px;
+    margin: 0;
+    backdrop-filter: blur(80px);
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+}
+h1 {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+main {
+    display: flex;
+    margin: 2rem;
+}
+.titulos{
+    display: grid;
+    place-content: left;
+    width: 20rem;
+    height: 2.5rem;
+    border: 1rem;
+    border-bottom: 0.5px solid;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color:black ;
+}
+.listas{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: justify;
+}
+.imagen {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.complemento{
+    font-size: 0.8rem;
+}
