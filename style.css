@@ -16,7 +16,7 @@ body{
     place-content: center;
 }
 .encabezado{
-    border-radius: 1rem;
+    border-radius: 20px;
     box-shadow: 0 0 2rem rgba(158, 126, 66, 0.13);
     max-width: 800px;
     margin: 0;
@@ -56,7 +56,7 @@ main {
     margin-right: 2rem;
     text-align: justify;
 }
-.imagen {
+.image-profile {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     margin-left: 2rem;
@@ -65,3 +65,6 @@ main {
 .complemento{
     font-size: 0.8rem;
 }
+.skills{
+    font-display: auto;
+} 
